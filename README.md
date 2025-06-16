@@ -20,40 +20,34 @@ This is a simple AI chatbot application built with **FastAPI** on the backend, u
 - **AI API:** Google Generative AI (Gemini)
 - **Hosting:** Local (can be extended to Docker, Render, etc.)
 
-
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the repo
 
-````bash
 git clone https://github.com/18Prashanth/ChatBot.git
 cd ChatBot
 
-
-
-
 ### 2. Create & activate virtual environment
 
-```bash
 python -m venv venv
-venv\Scripts\activate     # On Windows
-# or
-source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate # On Windows
 
+# or
+
+source venv/bin/activate # On macOS/Linux
 
 ### 3. Install dependencies
-```bash
+
 pip install -r requirements.txt
 
-
 ### 4. Set your Gemini API key
-```bash
+
 GEMINI_API_KEY=your_api_key_here
 
 ### 5. Run the server
-```bash
+
 uvicorn main:app --reload
 
+```
 
-
-````
+```
