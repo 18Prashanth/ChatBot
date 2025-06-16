@@ -24,30 +24,39 @@ This is a simple AI chatbot application built with **FastAPI** on the backend, u
 
 ### 1. Clone the repo
 
+```
 git clone https://github.com/18Prashanth/ChatBot.git
 cd ChatBot
+```
 
 ### 2. Create & activate virtual environment
 
+```
 python -m venv venv
 venv\Scripts\activate # On Windows
+```
 
-# or
+#### or
 
+```
 source venv/bin/activate # On macOS/Linux
+```
 
 ### 3. Install dependencies
 
+```
 pip install -r requirements.txt
+```
 
 ### 4. Set your Gemini API key
 
+```
 GEMINI_API_KEY=your_api_key_here
+```
 
 ### 5. Run the server
 
-uvicorn main:app --reload
-
 ```
+uvicorn main:app --reload
 
 ```
