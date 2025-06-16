@@ -22,8 +22,6 @@ This is a simple AI chatbot application built with **FastAPI** on the backend, u
 
 ---
 
----
-
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the repo
