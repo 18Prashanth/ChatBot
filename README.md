@@ -20,7 +20,6 @@ This is a simple AI chatbot application built with **FastAPI** on the backend, u
 - **AI API:** Google Generative AI (Gemini)
 - **Hosting:** Local (can be extended to Docker, Render, etc.)
 
----
 
 ## ⚙️ Setup Instructions
 
