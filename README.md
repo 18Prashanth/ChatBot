@@ -48,7 +48,7 @@ source venv/bin/activate # On macOS/Linux
 pip install -r requirements.txt
 ```
 
-### 4. Set your Gemini API key
+### 4. Set your Gemini API key/ add .env file
 
 ```
 GEMINI_API_KEY=your_api_key_here
